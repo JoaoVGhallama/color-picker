@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.container .react-colorful {
+    height: 458px;
+    width: 1000px;
+    
+}
+
+.container .react-colorful__saturation {
+    border-radius: 0 12px 12px 0;
+    margin-bottom: 10px;
+}
+
+.container .react-colorful__hue {
+    border-radius: 0;
+}
+
+.color_input  {
+    padding: 80px 60px;
+    background: #100D0D;
+    border-radius: 15px 0 0 15px;
+    width: auto;
+}
+
+.input_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style:none;
+    gap: 2rem;
+
+}
+
+.input_ul li h2 {
+    font-weight: lighter;
+}
+
+.input_ul li input{
+    padding: 16px 20px;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid #BBBBBB;
+}
+
+
+
+
