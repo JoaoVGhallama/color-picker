@@ -1,0 +1,51 @@
+.color-preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #100D0D;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.color-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.color-item {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 1rem;
+}
+
+.color-square {
+  width: 90px;
+  height: 52px;
+  border-radius: 6px; 
+}
+
+.color-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  background: #181414;
+  border-radius: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.color-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.color-hex {
+  color: #fff;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
